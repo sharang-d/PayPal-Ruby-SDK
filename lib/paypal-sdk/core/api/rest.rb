@@ -66,7 +66,8 @@ module PayPal::SDK::Core
 
       # Get access token
       def token(auth_code=nil, headers={})
-        token_hash(auth_code, headers)[:access_token]
+        #token_hash(auth_code, headers)[:access_token]
+        nil
       end
 
       # Get access token type
